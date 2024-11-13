@@ -100,20 +100,20 @@ export default function Navbar() {
               Hakkımızda
             </Link>
           </div>
-        </div>
-        {/* Links for larger screens */}
-        <div className="hidden md:flex justify-around text-white gap-12 font-semibold text-sm">
+
           <div className="min-w-[100px] text-center">
             <Link
               href="/zonelar"
               className={`transition-all duration-300 ease-in-out hover:text-orange-500 ${isActive(
-                "/zonelar"
+                "/naberabi"
               )}`}
             >
               naber abi
             </Link>
           </div>
-          </div>
+        </div>
+        {/* Links for larger screens */}
+       
 
         <Link
           href="/iletisim"
